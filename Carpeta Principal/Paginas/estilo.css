@@ -1,0 +1,140 @@
+
+/*Pagina Index*/
+
+/*Header*/
+header{
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 60px;
+}
+
+.textoFotoIndex{
+    color: white;
+}
+
+/*Footer*/
+/*Grid*/
+.contentFooter {
+    max-width: 100%;
+    background-color: black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 2rem;
+    grid-template-areas: 
+    "infoImport" "envios" "iconos";
+}
+
+.gridinfoImport{
+    grid-area: infoImport;   
+}
+
+.gridenvios{
+    grid-area: envios;
+}
+
+.gridiconos{
+    grid-area: iconos;
+}
+
+/*Footer*/
+
+.contentInfoFooter{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contentEnviosFooter{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contentIconosFooter{
+    color: white;
+    
+}
+
+ .CopyRfooter{
+     color: black;
+     text-align: center;
+     grid-column: 1/4;
+     background-color: rgb(236, 233, 233);
+     padding: 15px;
+     
+}
+
+  .textoFooter{
+      text-align: center;
+      margin: 2rem;
+  }
+
+  .subtituloFooter{
+    font-size: 1.3rem;
+  }
+
+/*Pagina Productos*/
+
+.card{
+    margin: 5px;
+    
+}
+
+.scale:hover{
+    transform: scale(1, 0.9);
+    transition: all 2s;
+}
+
+h5{
+    text-align: center;
+}
+
+/*Pagina Quienes Somos*/
+
+.contendor{
+    display: flex;
+
+}
+
+.contentTexto{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.contentImagen{
+    height: 30%;
+    width: 40%;
+    padding: 25px;
+}
+
+.imagenJean{
+    height: auto;
+    width: 100%;
+}
+
+
+/*Pagina Envios*/
+
+.contenedorTexto{
+    text-align: center;
+}
+
+
+
+/*Pagina Contacto*/
+
+.buttonEnviar{
+    margin: 5px;
+    background-color: black;
+}
+
